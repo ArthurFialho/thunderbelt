@@ -1,0 +1,388 @@
+.top-naider h1 {
+  font-size: 2.765rem;
+  font-family: "Aberto", sans-serif;
+  color: #000;
+}
+
+#button-fitness {
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  border-right: 3px solid#000;
+  border-bottom: 3px solid #000;
+  border-radius: 8px;
+  background-color: #7ed957;
+  color: #000;
+  text-align: center;
+  height: 45px;
+  margin-left: 10px;
+  font-family: "Lato", sans-serif;
+}
+
+#button-fitness:hover {
+  background-color: #5ac02f;
+  transition: 0.3s;
+}
+
+.rodape-container {
+  margin-top: 3rem;
+}
+
+.rodape {
+  padding-top: 10px;
+  border-top: 1px solid #cccccc;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+}
+
+.svg-itens {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.svg-itens svg {
+  width: 25px;
+  fill: #a6a6a6;
+}
+
+.svg-itens svg:hover {
+  fill: #5ac02f;
+  transition: 0.3s;
+}
+
+.rodape-01 {
+  grid-column: 2;
+  color: #a6a6a6;
+}
+
+.rodape-01 h2 {
+  font-family: "Lato", sans-serif;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: #000;
+}
+
+.rodape-02 h2 {
+  font-family: "Lato", sans-serif;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: #000;
+}
+
+.oferta {
+  font-family: "Lato", sans-serif;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: #000;
+}
+
+.rodape-02 {
+  grid-column: 3;
+  margin-right: 2rem;
+  color: #a6a6a6;
+  font-family: "Lato", sans-serif;
+}
+
+.list-aside {
+  font-family: "Lato", sans-serif;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+hr {
+  width: 60%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.img-logo {
+  grid-column: 1;
+  width: 200px;
+  margin-left: 2rem;
+}
+
+.menu-list {
+  font-size: 1.175rem;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.menu-list a:hover {
+  color: #4dff00;
+  transition: 0.3s;
+}
+
+.direitos {
+  font-family: "Lato", sans-serif;
+  padding: 1rem;
+  font-size: 1.275rem;
+  font-weight: 500;
+  margin-left: 2rem;
+  color: #6e6e6e;
+}
+
+.thunderOne {
+  color: #7ed957;
+}
+
+.thunderOne:hover {
+  color: #4dff00;
+  transition: 0.3s;
+}
+
+.mainContato,
+.mainCadastro {
+  margin-top: 2.3rem;
+}
+
+.mainContato h1,
+.mainCadastro h1 {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 2.175rem;
+  font-weight: bold;
+  color: #000;
+}
+
+.gridContato {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.detail {
+  padding-left: 10px;
+  padding-top: 5px;
+  width: 300px;
+  height: 140px;
+  background-color: #7ed957;
+  border-radius: 5px;
+  border-right: 3px solid#000;
+  border-bottom: 3px solid #000;
+}
+
+.detail h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 1.365rem;
+  font-weight: bold;
+  color: #000;
+}
+
+.detail h4 {
+  font-family: "Lato", sans-serif;
+  font-size: 1.165rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+label {
+  display: block;
+  font-family: "Lato", sans-serif;
+  font-size: 1.165rem;
+  font-weight: 500;
+  color: #000;
+}
+
+form {
+  padding: 0.5rem 0 2rem;
+  text-align: center;
+}
+
+input {
+  outline: none;
+  border-radius: 4px;
+  height: 35px;
+  background-color: #bbbbbb;
+  border: 2px solid #e6e6e6;
+  width: 400px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.formContato input:nth-of-type(3) {
+  height: 70px;
+}
+
+input::placeholder {
+  display: block;
+  font-family: "Lato", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #535353;
+  padding-left: 5px;
+}
+
+.detail2,
+.detail3 {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  position: relative;
+}
+
+.detail2 h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 1.675rem;
+  font-weight: 500;
+  color: #000000;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.detail2 h1::after {
+  content: "";
+  width: 180px;
+  height: 4px;
+  background-color: #7ed957;
+  position: absolute;
+  top: 35px;
+  left: 12px;
+}
+
+.detail3 {
+  flex-direction: column;
+  align-items: center;
+}
+
+.detail3 img {
+  width: 80%;
+  text-align: center;
+}
+
+.detail2 img {
+  padding-left: 10px;
+  width: 60%;
+}
+
+.oferta01 {
+  font-family: "Lato", sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #535353;
+  padding-left: 5px;
+}
+
+.atualizar:hover {
+  color: #4dff00;
+  transition: 0.3s;
+}
+
+#button-enviar {
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  border-right: 3px solid#000;
+  border-bottom: 3px solid #000;
+  border-radius: 8px;
+  background-color: #7ed957;
+  color: #000;
+  text-align: center;
+  height: 45px;
+  font-family: "Lato", sans-serif;
+  display: block;
+  max-width: 20%;
+  margin-left: 330px;
+}
+
+#button-enviar:hover {
+  background-color: #5ac02f;
+  transition: 0.3s;
+}
+
+.imgPedidos {
+  padding: 10px;
+}
+
+.imgPedidos h1 {
+  font-family: "Lato", sans-serif;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.imgPedidos img {
+  width: 80%;
+}
+
+.listImg {
+  display: flex;
+  gap: 10px;
+  font-family: "Lato", sans-serif;
+  font-size: 1.235rem;
+}
+
+.fatherItensAside {
+  text-align: left;
+  padding-left: 1rem;
+  grid-column: 1;
+}
+
+.fatherItensAside-02 {
+  grid-column: 2;
+  font-family: "Lato", sans-serif;
+}
+
+.bg-black {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem;
+  margin-top: 10px;
+  border-radius: 8px;
+  margin-right: 8px;
+}
+
+.img-list-icons {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 10px;
+}
+
+.img-list-icons img {
+  display: block;
+  width: 12%;
+}
+
+#button-fitness02 {
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  border-right: 3px solid#000;
+  border-bottom: 3px solid #000;
+  border-radius: 8px;
+  background-color: #7ed957;
+  color: #000;
+  text-align: center;
+  height: 45px;
+  font-family: "Lato", sans-serif;
+}
+
+#button-fitness02:hover {
+  background-color: #5ac02f;
+  transition: 0.3s;
+}
+
+.ulListbeneficios {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 1rem;
+  list-style-type: circle;
+  margin-left: 8px;
+}
+.ulListbeneficios li::marker {
+  color: #5ac02f;
+}
+
+.listImgCarbUp img {
+  width: 30%;
+}
